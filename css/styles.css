@@ -68,15 +68,13 @@ ul {
   text-transform: uppercase;
 }
 
-.button {
+
+.button.primary {
+  color: #ffffff;
+  background-color: var(--accent-color);
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-
-}
-.button.primary {
-  color: #ffffff;
-  background-color: var(--accent-color)
 }
 
 .feature-list .title {
@@ -146,12 +144,19 @@ ul {
 }
 
 /* стили для portfolio.html */
- .main-menu .button:hover,
- .main-menu .button:focus {
+ .portfolio-button:hover,
+ .portfolio-button:focus {
   background-color:var(--accent-color); 
   color: #ffffff; 
 }
 
+.portfolio-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  background-color: #F5F4FA;
+
+}
 .examples a{
   color: var(--primary-black-color);
   text-decoration: none;  
