@@ -46,13 +46,17 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.auth-nav .button{  
-  
+.auth-nav .button{    
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--secondary-grey-color);
+}
+
+.auth-nav .button:hover,
+.auth-nav .button:focus {
+  color: var(--accent-color);
 }
 
 .hero {
