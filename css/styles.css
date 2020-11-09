@@ -46,6 +46,10 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.link.current {
+  color: var(--accent-color);
+}
+
 .auth-nav .button{    
   font-weight: 500;
   font-size: 14px;
