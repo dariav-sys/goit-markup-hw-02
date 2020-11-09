@@ -23,7 +23,7 @@ ul {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;  
+  line-height: 1.2;  
   
   text-decoration: none;
 }
@@ -42,14 +42,14 @@ ul {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
 .auth-nav .button{    
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-grey-color);
 }
@@ -66,7 +66,7 @@ ul {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;  
+  line-height: 1.4;  
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -78,13 +78,13 @@ ul {
   background-color: var(--accent-color);
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
 }
 
 .feature-list .title {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   
   text-transform: uppercase;
 }
@@ -92,23 +92,20 @@ ul {
 .feature-list .text{
   color: var(--secondary-grey-color);
   font-size: 14px;
-  line-height: 24px; 
+  line-height: 1.8; 
   
 }
 
 .section-team {
   background-color: #F5F4FA;
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-  text-align: center;
-  
+  line-height: 1.2;  
 }
 
 .section-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;  
 }
 
@@ -134,7 +131,7 @@ ul {
 .address {
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.8;
 }
 
 .address a{
@@ -157,7 +154,7 @@ ul {
 .portfolio-button {
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 2;
   background-color: #F5F4FA;
 
 }
@@ -168,13 +165,13 @@ ul {
 
 .examples-title {
   font-size: 18px;
-  line-height: 36px;  
+  line-height: 2;  
   letter-spacing: 0.06em;
 }
 
 .examples p {
   color: var(--secondary-grey-color);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
 }
 
